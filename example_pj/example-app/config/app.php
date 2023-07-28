@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
+define('OMISE_PUBLIC_KEY', env('OMISE_PUBLIC_KEY'));
+define('OMISE_SECRET_KEY', env('OMISE_SECRET_KEY'));
+
 return [
 
     /*

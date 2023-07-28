@@ -20,6 +20,6 @@
             <br />
             <a href="/create_paypay_charge">create paypay charge</a>
             <br />
-            <a href="/check_charge_status">check_charge_status(please remember what you charged)</a>
+            
     </body>
 </html>

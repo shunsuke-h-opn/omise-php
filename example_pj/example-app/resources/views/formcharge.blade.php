@@ -7,6 +7,7 @@
 <body>
   カード決済:
   <form method=POST action="/create_charge">
+  @csrf <!-- {{ csrf_field() }} -->
     金額:<input type="text" name="money"><br />
     名前:<input type="text" name="name"><br />
     カード番号:<input type="text" name="card_number"><br />

@@ -19,4 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/create_charge', [ChargeController::class, 'index']);
+Route::get('/check_charge', [ChargeController::class, 'checkCharge']);
 Route::post('/create_charge', [ChargeController::class, 'cardCharge']);
